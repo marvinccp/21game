@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins',
+        sans-serif;
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.img-container img {
+    position: relative;
+    width: 100px;
+    left: 100px;
+    margin-left: -70px;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.new-game-button-conatiner {
+    margin: 20px 0 0;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+    cursor: pointer;
+    margin: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.buttons-start-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.play-buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.points-player-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    flex-direction: row;
+    margin: 30px auto 35px auto;
+
+}
+
+
+.app-container {
+    margin: 0;
+    padding: 0;
+    padding: 30px;
+}
+.app-container h5{
+    text-align: center;
+}
+
+.points-player-container-text {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.points-sistem-container-text {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media(min-width:768px) {
+
+    .play-buttons-container {
+
+        flex-direction: row;
+
+    }
+
 }

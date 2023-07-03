@@ -1,0 +1,21 @@
+.reset-button-container {
+
+    margin: 10px 0;
+}
+
+.reset-button {
+
+    background-color: rgb(70, 168, 40);
+    border: none;
+    width: 90px;
+    height: 50px;
+    color: white;
+    border-radius: 7px;
+    margin: 20px;
+}
+
+.reset-button:hover {
+
+    background-color: rgb(83, 137, 28);
+
+}

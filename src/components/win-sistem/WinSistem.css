@@ -1,0 +1,16 @@
+.win-sistem-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+}
+
+.robot-win-logo-container{
+height: 200px;
+
+}
+.robot-win-logo-container img{
+height: 100%;
+
+}

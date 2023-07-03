@@ -1,0 +1,18 @@
+.header-container{
+    /* background-color: rgb(0, 255, 30); */
+    height: 15vh;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(60deg, rgba(169, 92, 15, 0.715), rgb(154, 106, 57), rgb(206, 139, 72));
+}
+
+.logo-header-container{
+    height: 80px;
+}
+
+.logo-header-container img{
+   height: 100%;
+}
+

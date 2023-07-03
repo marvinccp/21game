@@ -1,0 +1,18 @@
+.draw-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+}
+
+.draw-logo-container {
+    height: 200px;
+    margin: 30px 0 25px 0;
+
+}
+
+.draw-logo-container img {
+    height: 100%;
+
+}

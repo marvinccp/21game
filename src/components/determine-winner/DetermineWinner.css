@@ -1,0 +1,48 @@
+.determine-winner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    flex-direction: column;
+}
+
+.points-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    flex-direction: row;
+    margin: 230px auto 35px auto;
+}
+
+.points-player-container {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border: 6px solid rgba(169, 92, 15, 0.715);
+}
+
+.points-sistem-container {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border: 6px solid rgba(169, 92, 15, 0.715);
+}
+
+.points-player-container h1 {
+    font-size: 70px;
+}
+
+.points-sistem-container h1 {
+    font-size: 70px;
+}

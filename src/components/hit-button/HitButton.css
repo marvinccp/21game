@@ -1,0 +1,21 @@
+.hit-button-container {
+
+   margin: 10px 0;
+}
+.hit-button {
+
+    background-color: rgb(106, 195, 106);
+    border: none;
+    width: 170px;
+    height: 40px;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.hit-button:hover {
+
+    background-color: rgb(79, 184, 79);
+    
+   
+}

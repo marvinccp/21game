@@ -1,0 +1,22 @@
+.stand-button-container {
+
+    margin: 10px 0;
+}
+
+.stand-button {
+
+    background-color: rgb(205, 142, 74);
+   border: none;
+   width: 170px;
+   height: 40px;
+   color: white;
+   border-radius: 20px;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.stand-button:hover {
+
+    background-color: rgb(184, 163, 79);
+
+}
